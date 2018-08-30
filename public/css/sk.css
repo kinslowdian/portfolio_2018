@@ -535,6 +535,28 @@ footer a:hover
 		width: 90%;
 	}
 
+	header .nav-items *
+	{
+		font-size: 12px;
+	}
+
+	.nav0-d
+	{
+		display: none;
+		visibility: hidden;
+	}
+
+	.nav0-m
+	{
+		display: block;
+		visibility: visible;
+	}
+
+	.nav1, .nav2, .nav3
+	{
+		margin-left: 1em;
+	}
+
 	header h1
 	{
 		width: 80%;
@@ -572,6 +594,28 @@ footer a:hover
 	header .nav-items
 	{
 		width: 90%;
+	}
+
+	header .nav-items *
+	{
+		font-size: 14px;
+	}
+
+	.nav0-d
+	{
+		display: block;
+		visibility: visible;
+	}
+
+	.nav0-m
+	{
+		display: none;
+		visibility: hidden;
+	}
+
+	.nav1, .nav2, .nav3
+	{
+		margin-left: 4em;
 	}
 
 	header h1
@@ -613,6 +657,28 @@ footer a:hover
 		width: 90%;
 	}
 
+	header .nav-items *
+	{
+		font-size: 14px;
+	}
+
+	.nav0-d
+	{
+		display: block;
+		visibility: visible;
+	}
+
+	.nav0-m
+	{
+		display: none;
+		visibility: hidden;
+	}
+
+	.nav1, .nav2, .nav3
+	{
+		margin-left: 4em;
+	}
+
 	header h1
 	{
 		width: 90%;
@@ -650,6 +716,28 @@ footer a:hover
 	header .nav-items
 	{
 		width: 80%;
+	}
+
+	header .nav-items *
+	{
+		font-size: 14px;
+	}
+
+	.nav0-d
+	{
+		display: block;
+		visibility: visible;
+	}
+
+	.nav0-m
+	{
+		display: none;
+		visibility: hidden;
+	}
+
+	.nav1, .nav2, .nav3
+	{
+		margin-left: 4em;
 	}
 
 	.intro p
