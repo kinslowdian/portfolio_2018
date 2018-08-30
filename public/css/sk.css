@@ -119,6 +119,8 @@ header h1
 	text-align: center;
 
 	width: 90%;
+
+	margin: 0 auto;
 }
 
 header nav
@@ -541,17 +543,66 @@ footer a:hover
 /* PHABLET */
 @media only screen and (min-width: 600px)
 {
-	
+	html, body
+	{
+		font-size: 40px;
+	}
+
+	header .nav-items
+	{
+		width: 90%;
+	}
+
+	header h1
+	{
+		width: 80%;
+	}
+
+	.intro p
+	{
+		width: 70%;
+	}
 }
 
 /* TABLET */
 @media only screen and (min-width: 900px)
 {
+	html, body
+	{
+		font-size: 50px;
+	}
 
+	header .nav-items
+	{
+		width: 90%;
+	}
+
+	header h1
+	{
+		width: 90%;
+	}
+
+	.intro p
+	{
+		width: 60%;
+	}
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1200px)
 {
+	html, body
+	{
+		font-size: 60px;
+	}
 
+	header .nav-items
+	{
+		width: 80%;
+	}
+
+	.intro p
+	{
+		width: 50%;
+	}
 }
