@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.header
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.header-tuborg
+{
+	background-image: url(../img/project_hero_2018_tuborg_equity.jpg);
+}
