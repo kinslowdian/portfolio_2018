@@ -240,6 +240,11 @@ header a:hover
 	margin-bottom: 2em;
 }
 
+.project:last-of-type
+{
+	margin-bottom: 0;
+}
+
 .project header
 {
 	width: 100%;
@@ -285,6 +290,11 @@ header a:hover
 	text-align: center;
 
 	color: var(--color-black);
+}
+
+.project p:last-of-type
+{
+	margin-bottom: 0;
 }
 
 .project-btn
