@@ -7,7 +7,13 @@ function pageLoad_init()
 {
 	// trace("pageLoad_init();");
 
+	experienceUpdate();
 	nav_init();
+}
+
+function experienceUpdate()
+{
+
 }
 
 function nav_init()

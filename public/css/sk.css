@@ -64,6 +64,15 @@ h3
 	font-weight: 400;
 }
 
+.ui-animation
+{
+	-webkit-transition: 300ms linear;
+	transition: 300ms linear;
+
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
 .display-wrapper
 {
 	width: 100%;
@@ -162,8 +171,8 @@ header a
 
 	cursor: pointer;
 
-	-webkit-transition: 300ms linear;
-	transition: 300ms linear;
+/*	-webkit-transition: 300ms linear;
+	transition: 300ms linear;*/
 }
 
 header a:hover
@@ -211,11 +220,21 @@ header a:hover
 	text-transform: uppercase;
 	text-align: center;
 
+	cursor: pointer;
+
 	font-size: 0.5em;
 
 	position: relative;
 
 	margin: 0 auto;
+
+/*	-webkit-transition: 300ms linear;
+	transition: 300ms linear;*/
+}
+
+.intro a:hover
+{
+	color: var(--color-white);
 }
 
 
@@ -333,8 +352,8 @@ header a:hover
 
 	background: var(--color-btn0);
 
-	-webkit-transition: 300ms linear;
-	transition: 300ms linear;
+/*	-webkit-transition: 300ms linear;
+	transition: 300ms linear;*/
 }
 
 .project-btn-inner p
@@ -356,7 +375,7 @@ header a:hover
 .outset
 {
 	min-width: 100vw;
-	min-height: 50vw;
+	min-height: 30vw;
 
 	max-width: 100%;
 
@@ -365,6 +384,59 @@ header a:hover
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 0;
+
+	background: var(--color-black);
+}
+
+.outset a
+{
+	text-decoration: none;
+	color: var(--color-nav);
+}
+
+.outset a:hover > .outset-inner .outset-inner-bg
+{
+	opacity: 0.9;
+}
+
+.outset a:hover > .outset-inner p
+{
+	color: var(--color-white);
+}
+
+.outset-inner
+{
+	width: 100%;
+	height: 100%;
+
+	position: relative;
+}
+
+.outset-inner-bg
+{
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+
+	left: 0; top: 0;
+
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: cover;
+}
+
+.outset-inner p
+{
+	width: 100%;
+
+	position: relative;
+
+	text-transform: uppercase;
+	text-align: center;
+
+	font-size: 1.5em;
+	line-height: 1;
 }
 
 .outset .outset-0, .outset .outset-1 
@@ -380,15 +452,21 @@ header a:hover
 .outset .outset-0
 {
 	grid-column: 1;
-
-	background: lime;
 }
 
 .outset .outset-1
 {
 	grid-column: 2;
-	
-	background: blue;
+}
+
+.outset .outset-0 .outset-inner-bg
+{
+	background-image: url(../img/extendNew_bg_work.png);
+}
+
+.outset .outset-1 .outset-inner-bg
+{
+	background-image: url(../img/extendNew_bg_own.png);
 }
 
 footer
@@ -442,8 +520,8 @@ footer a
 
 	cursor: pointer;
 
-	-webkit-transition: 300ms linear;
-	transition: 300ms linear;
+/*	-webkit-transition: 300ms linear;
+	transition: 300ms linear;*/
 }
 
 footer a:hover
