@@ -30,6 +30,8 @@ h1
 h2
 {
 	font-size: 0.6em;
+
+	width: 90%;
 }
 
 h3
@@ -106,8 +108,10 @@ header
 	position: relative;
 
 	background-image: url(../img/HEADER.jpg);
+	background-image: url(../img/main_header.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	background-position: left bottom;
 	background-size: cover;
 }
 
@@ -196,6 +200,7 @@ header a:hover
 	width: 100%;
 	position: relative;
 	background: var(--color-black);
+	background: #000;
 	padding: 1em 0;
 }
 
@@ -535,6 +540,12 @@ footer a:hover
 		font-size: 30px;
 	}
 
+	.display-content h2
+	{
+		font-size: 0.8em;
+		width: 90%;
+	}
+
 	header .nav-items
 	{
 		width: 90%;
@@ -594,6 +605,11 @@ footer a:hover
 		height: 100px;
 	}
 
+	.project-btn-inner p
+	{
+		font-size: 16px;
+	}
+
 	.outset
 	{
 		min-height: 60vw;
@@ -616,6 +632,12 @@ footer a:hover
 	html, body
 	{
 		font-size: 40px;
+	}
+
+	.display-content h2
+	{
+		font-size: 0.7em;
+		width: 90%;
 	}
 
 	header .nav-items
@@ -677,6 +699,11 @@ footer a:hover
 		height: 120px;
 	}
 
+	.project-btn-inner p
+	{
+		font-size: 20px;
+	}
+
 	.outset
 	{
 		min-height: 45vw;
@@ -699,6 +726,12 @@ footer a:hover
 	html, body
 	{
 		font-size: 50px;
+	}
+
+	.display-content h2
+	{
+		font-size: 0.7em;
+		width: 90%;
 	}
 
 	header .nav-items
@@ -760,6 +793,11 @@ footer a:hover
 		height: 120px;
 	}
 
+	.project-btn-inner p
+	{
+		font-size: 20px;
+	}
+
 	.outset
 	{
 		min-height: 30vw;
@@ -782,6 +820,12 @@ footer a:hover
 	html, body
 	{
 		font-size: 60px;
+	}
+
+	.display-content h2
+	{
+		font-size: 0.6em;
+		width: 50%;
 	}
 
 	header .nav-items
@@ -835,6 +879,11 @@ footer a:hover
 	{
 		width: 120px;
 		height: 120px;
+	}
+
+	.project-btn-inner p
+	{
+		font-size: 20px;
 	}
 
 	.outset
