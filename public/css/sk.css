@@ -212,6 +212,11 @@ header a:hover
 	color: var(--color-white);
 }
 
+.intro p:first-of-type
+{
+	margin-bottom: 0.5em;
+}
+
 .intro a
 {
 	color: var(--color-nav);
@@ -221,7 +226,7 @@ header a:hover
 
 	cursor: pointer;
 
-	font-size: 0.5em;
+	font-size: 0.8em;
 
 	position: relative;
 
@@ -468,7 +473,7 @@ footer
 	position: relative;
 
 	font-size: 14px;
-	line-height: 2;
+	line-height: 3;
 	text-transform: uppercase;
 
 	background: var(--color-black);
@@ -564,17 +569,39 @@ footer a:hover
 
 	.intro p
 	{
-		width: 70%;
+		width: 90%;
 	}
 
 	.project .project-content
 	{
-		width: 70%;
+		width: 90%;
 	}
 
-	.project p
+	.project .project-content h3
+	{
+		font-size: 20px;
+	}
+
+	.project .project-content p
 	{
 		font-size: 14px;
+		text-align: left;
+	}
+
+	.project-btn
+	{
+		width: 100px;
+		height: 100px;
+	}
+
+	.outset
+	{
+		min-height: 60vw;
+	}
+
+	footer
+	{
+		font-size: 12px;
 	}
 
 	footer .footer-inner
@@ -633,7 +660,29 @@ footer a:hover
 		width: 70%;
 	}
 
-	.project p
+	.project .project-content h3
+	{
+		font-size: 24px;
+	}
+
+	.project .project-content p
+	{
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.project-btn
+	{
+		width: 120px;
+		height: 120px;
+	}
+
+	.outset
+	{
+		min-height: 45vw;
+	}
+
+	footer
 	{
 		font-size: 14px;
 	}
@@ -694,9 +743,31 @@ footer a:hover
 		width: 60%;
 	}
 
-	.project p
+	.project .project-content h3
 	{
-		font-size: 16px;
+		font-size: 0.5em;
+	}
+
+	.project .project-content p
+	{
+		font-size: 0.3em;
+		text-align: center;
+	}
+
+	.project-btn
+	{
+		width: 120px;
+		height: 120px;
+	}
+
+	.outset
+	{
+		min-height: 30vw;
+	}
+
+	footer
+	{
+		font-size: 14px;
 	}
 
 	footer .footer-inner
@@ -750,9 +821,30 @@ footer a:hover
 		width: 50%;
 	}
 
-	.project p
+	.project .project-content h3
+	{
+		font-size: 0.5em;
+	}
+
+	.project .project-content p
 	{
 		font-size: 0.25em;
+	}
+
+	.project-btn
+	{
+		width: 120px;
+		height: 120px;
+	}
+
+	.outset
+	{
+		min-height: 30vw;
+	}
+
+	footer
+	{
+		font-size: 14px;
 	}
 
 	footer .footer-inner
