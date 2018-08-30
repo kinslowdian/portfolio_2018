@@ -3,6 +3,7 @@
 :root
 {
 	--color-white: #FCFCFC;
+	--color-nav: #D6FFB7;
 }
 
 html, body
@@ -30,6 +31,20 @@ h1
 
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+
+.no-select
+{
+	-webkit-user-select: none;
+	user-select: none;
+
+	-webkit-touch-callout: none;
+	touch-callout: none;
+}
+
+.shadow
+{
+	text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .display-wrapper
@@ -76,6 +91,75 @@ header h1
 	width: 90%;
 }
 
+header nav
+{
+	width: inherit;
+	height: 120px;
+
+	position: absolute;
+
+	top: 0;
+
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+header .nav-items
+{
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+
+	height: 60px;
+}
+
+header .nav-items *
+{
+	line-height: 1;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color: var(--color-nav);
+
+	list-style: none;
+}
+
+header .nav-items ul
+{
+
+}
+
+header .nav-items ul li
+{
+	position: relative;
+	display: inline-block;
+}
+
+header a
+{
+	text-decoration: none;
+	color: var(--color-nav);
+
+	-webkit-transition: 300ms linear;
+	transition: 300ms linear;
+}
+
+header a:hover
+{
+	color: var(--color-white);
+}
+
+.nav0
+{
+	text-align: left;
+}
+
+.nav1, .nav2, .nav3
+{
+	text-align: right;
+	float: right;
+	margin-left: 4em;
+}
 
 
 
