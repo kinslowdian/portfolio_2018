@@ -172,9 +172,6 @@ header a
 	color: var(--color-nav);
 
 	cursor: pointer;
-
-/*	-webkit-transition: 300ms linear;
-	transition: 300ms linear;*/
 }
 
 header a:hover
@@ -229,9 +226,6 @@ header a:hover
 	position: relative;
 
 	margin: 0 auto;
-
-/*	-webkit-transition: 300ms linear;
-	transition: 300ms linear;*/
 }
 
 .intro a:hover
@@ -353,9 +347,6 @@ header a:hover
 	border-radius: 50%;
 
 	background: var(--color-btn0);
-
-/*	-webkit-transition: 300ms linear;
-	transition: 300ms linear;*/
 }
 
 .project-btn-inner p
@@ -521,9 +512,6 @@ footer a
 	display: block;
 
 	cursor: pointer;
-
-/*	-webkit-transition: 300ms linear;
-	transition: 300ms linear;*/
 }
 
 footer a:hover
@@ -537,7 +525,40 @@ footer a:hover
 /* MOBILE */
 @media only screen and (min-width: 300px)
 {
+	html, body
+	{
+		font-size: 30px;
+	}
 
+	header .nav-items
+	{
+		width: 90%;
+	}
+
+	header h1
+	{
+		width: 80%;
+	}
+
+	.intro p
+	{
+		width: 70%;
+	}
+
+	.project .project-content
+	{
+		width: 70%;
+	}
+
+	.project p
+	{
+		font-size: 14px;
+	}
+
+	footer .footer-inner
+	{
+		width: 90%;
+	}
 }
 
 /* PHABLET */
@@ -561,6 +582,21 @@ footer a:hover
 	.intro p
 	{
 		width: 70%;
+	}
+
+	.project .project-content
+	{
+		width: 70%;
+	}
+
+	.project p
+	{
+		font-size: 14px;
+	}
+
+	footer .footer-inner
+	{
+		width: 90%;
 	}
 }
 
@@ -586,6 +622,21 @@ footer a:hover
 	{
 		width: 60%;
 	}
+
+	.project .project-content
+	{
+		width: 60%;
+	}
+
+	.project p
+	{
+		font-size: 16px;
+	}
+
+	footer .footer-inner
+	{
+		width: 90%;
+	}
 }
 
 /* DESKTOP */
@@ -604,5 +655,20 @@ footer a:hover
 	.intro p
 	{
 		width: 50%;
+	}
+
+	.project .project-content
+	{
+		width: 50%;
+	}
+
+	.project p
+	{
+		font-size: 0.25em;
+	}
+
+	footer .footer-inner
+	{
+		width: 80%;
 	}
 }
