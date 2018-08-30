@@ -160,6 +160,8 @@ header a
 	text-decoration: none;
 	color: var(--color-nav);
 
+	cursor: pointer;
+
 	-webkit-transition: 300ms linear;
 	transition: 300ms linear;
 }
