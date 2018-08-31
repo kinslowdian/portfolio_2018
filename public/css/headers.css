@@ -25,9 +25,24 @@
 	background-position: left bottom;
 }
 
+.header-tuborg
+{
+	background-image: url(../img/project_hero_2017_tuborg.jpg);
+}
+
 .header-tuborg-equity
 {
 	background-image: url(../img/project_hero_2018_tuborg_equity.jpg);
+}
+
+.header-tuborg-open
+{
+	background-image: url(../img/project_hero_2018_tuborg_open.jpg);
+}
+
+.header-bruno-2016
+{
+	background-image: url(../img/project_hero_2016_brunobanani.jpg);
 }
 
 .header-mands-christmas2017
@@ -38,4 +53,24 @@
 .header-mands-christmasFood2017
 {
 	background-image: url(../img/project_hero_2017_msfoodChristmas.jpg);
+}
+
+.header-mands-summerFood2017
+{
+	background-image: url(../img/project_hero_2017_msfood.jpg);
+}
+
+.header-gillette-2016
+{
+	background-image: url(../img/project_hero_2016_gillette.jpg);
+}
+
+.header-ms-spenditwell-2017
+{
+	background-image: url(../img/project_hero_2017_msspenditwell.jpg);
+}
+
+.header-ms-bts-2017
+{
+	background-image: url(../img/project_hero_2017_msbts.jpg);
 }

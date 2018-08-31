@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.project-view .header-full
+{
+	background-position: center center;
+}
+
 .header-safe
 {
 	width: 100%;
@@ -11,7 +16,7 @@
 
 	background: #000;
 
-	opacity: 0.2;
+	opacity: 0.15;
 }
 
 .project-view .project
@@ -28,29 +33,40 @@
 .project-video
 {
 	width: 100%;
-	max-width: 40%;
 
 	position: relative;
 
-	padding: 1em;
-	margin: 0 auto;
+	padding-bottom: 1em;
 
-	font-size: 0;
+	margin: 0 auto;
 }
 
-.project-video:first-of-type
+.project-video-1x1
 {
-	padding: 0 0 1em 0;
+	max-width: 40%;
+}
+
+.project-video-16x9
+{
+	max-width: 80%;
 }
 
 .project-video:last-of-type
 {
-	padding: 1em 0 0 0;
+	padding-bottom: 0;
+	font-size: 0;
 }
 
 .project-video:only-of-type
 {
-	padding: 0;
+	padding-bottom: 0;
+	font-size: 0;
+}
+
+.project-video-no-btm-space
+{
+	padding-bottom: 0;
+	font-size: 0;	
 }
 
 .project-video video
@@ -65,23 +81,55 @@
 /* MOBILE */
 @media only screen and (min-width: 300px)
 {
+	.project-video-1x1
+	{
+		max-width: 90%;
+	}
 
+	.project-video-16x9
+	{
+		max-width: 100%;
+	}
 }
 
 /* PHABLET */
 @media only screen and (min-width: 600px)
 {
-	
+	.project-video-1x1
+	{
+		max-width: 70%;
+	}
+
+	.project-video-16x9
+	{
+		max-width: 90%;
+	}
 }
 
 /* TABLET */
 @media only screen and (min-width: 900px)
 {
+	.project-video-1x1
+	{
+		max-width: 40%;
+	}
 
+	.project-video-16x9
+	{
+		max-width: 80%;
+	}
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1200px)
 {
+	.project-video-1x1
+	{
+		max-width: 40%;
+	}
 
+	.project-video-16x9
+	{
+		max-width: 80%;
+	}
 }
