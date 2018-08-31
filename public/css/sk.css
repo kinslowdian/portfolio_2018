@@ -268,7 +268,7 @@ header a:hover
 	margin-bottom: 2em;
 }
 
-.project:last-of-type
+.project-end
 {
 	margin-bottom: 0;
 }
