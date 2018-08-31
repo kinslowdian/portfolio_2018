@@ -109,12 +109,12 @@ header
 
 	position: relative;
 
-	background-image: url(../img/HEADER.jpg);
+/*	background-image: url(../img/HEADER.jpg);
 	background-image: url(../img/main_header.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-position: left bottom;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 header h1

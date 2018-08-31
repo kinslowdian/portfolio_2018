@@ -7,6 +7,24 @@
 	background-size: cover;
 }
 
+.header-index
+{
+	background-image: url(../img/main_header.jpg);
+	background-position: left bottom;
+}
+
+.header-work
+{
+	background-image: url(../img/main_header.jpg);
+	background-position: left bottom;
+}
+
+.header-own
+{
+	background-image: url(../img/main_header.jpg);
+	background-position: left bottom;
+}
+
 .header-tuborg-equity
 {
 	background-image: url(../img/project_hero_2018_tuborg_equity.jpg);
