@@ -41,12 +41,28 @@ h3
 	font-size: 0.5em;
 }
 
+.center-xy
+{
+	left: 50%; top: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	transform: translateY(-50%, -50%);
+}
+
 .center-y
 {
 	top: 50%;
 
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+
+.center-x
+{
+	left: 50%;
+
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 .no-select

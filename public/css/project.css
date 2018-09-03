@@ -164,6 +164,54 @@
 	max-width: 1000px;
 }
 
+.project-img-custom-1380 img
+{
+	max-width: 1380px;
+}
+
+.weblink-exit
+{
+	width: 100%;
+	height: 120px;
+	position: absolute;
+
+	left: 0; right: 0; bottom: 0;
+
+	font-size: 0;
+
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/*.weblink-exit .weblink-exit-inner
+{
+	position: relative;
+}
+
+.weblink-exit p
+{
+	font-size: 28px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	display: inline-block;
+
+	margin: 0 auto;
+}
+
+.weblink-exit a
+{
+	color: var(--color-nav);
+	text-decoration: none;
+}
+
+.weblink-exit a:hover
+{
+	color: var(--color-white);
+}*/
+
+
+
 
 /* !!! RESPONSIVE !!! */
 
@@ -186,6 +234,11 @@
 
 		grid-template-columns: 1fr;
 	}
+
+	.weblink-exit p
+	{
+		font-size: 24px;
+	}
 }
 
 /* PHABLET */
@@ -206,6 +259,11 @@
 		max-width: 300px;
 
 		grid-template-columns: 1fr;
+	}
+
+	.weblink-exit p
+	{
+		font-size: 28px;
 	}
 }
 
@@ -228,6 +286,11 @@
 
 		grid-template-columns: 1fr 1fr;
 	}
+
+	.weblink-exit p
+	{
+		font-size: 28px;
+	}
 }
 
 /* DESKTOP */
@@ -248,5 +311,10 @@
 		max-width: 1000px;
 
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.weblink-exit p
+	{
+		font-size: 28px;
 	}
 }
