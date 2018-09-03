@@ -154,6 +154,11 @@
 	margin-bottom: 1em;
 }
 
+.project-img-custom-320 img
+{
+	max-width: 320px;
+}
+
 .project-img-custom-600 img
 {
 	max-width: 600px;
@@ -164,9 +169,24 @@
 	max-width: 1000px;
 }
 
+.project-img-custom-1200 img
+{
+	max-width: 1200px;
+}
+
+.project-img-custom-1300 img
+{
+	max-width: 1300px;
+}
+
 .project-img-custom-1380 img
 {
 	max-width: 1380px;
+}
+
+.project-img-custom-400 img
+{
+	max-width: 400px;
 }
 
 .weblink-exit
@@ -182,21 +202,14 @@
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-/*.weblink-exit .weblink-exit-inner
-{
-	position: relative;
-}
-
 .weblink-exit p
 {
 	font-size: 28px;
 
+	position: relative;
+	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
-
-	display: inline-block;
-
-	margin: 0 auto;
 }
 
 .weblink-exit a
@@ -208,7 +221,7 @@
 .weblink-exit a:hover
 {
 	color: var(--color-white);
-}*/
+}
 
 
 
@@ -237,7 +250,13 @@
 
 	.weblink-exit p
 	{
-		font-size: 24px;
+		font-size: 25px;
+	}
+
+	.project-728x90
+	{
+		height: 0;
+		visibility: hidden;		
 	}
 }
 
@@ -263,8 +282,19 @@
 
 	.weblink-exit p
 	{
-		font-size: 28px;
+		font-size: 25px;
 	}
+}
+
+/* BANNER CUSTOM */
+
+@media screen and (min-width: 730px)
+{
+	.project-728x90
+	{
+		height: 90px;
+		visibility: visible;
+	}	
 }
 
 /* TABLET */
@@ -289,7 +319,7 @@
 
 	.weblink-exit p
 	{
-		font-size: 28px;
+		font-size: 30px;
 	}
 }
 
@@ -315,6 +345,6 @@
 
 	.weblink-exit p
 	{
-		font-size: 28px;
+		font-size: 30px;
 	}
 }
