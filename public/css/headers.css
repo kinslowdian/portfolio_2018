@@ -215,9 +215,24 @@
 	background-image: url(../img/project_hero_moonlit_options.jpg);
 }
 
+.header-moonlit-2012
+{
+	background-image: url(../img/project_hero_moonlit_options.jpg);
+}
+
+.header-theirlastever-2010
+{
+	background-image: url(../img/project_hero_their_last_ever.jpg);
+}
+
 .header-polish-2007
 {
 	background-image: url(../img/project_hero_the_polish_brothers.jpg);
+}
+
+.header-bombuspet-2005
+{
+	background-image: url(../img/project_hero_bombus_pet.jpg);
 }
 
 .header-absurdism-2004
