@@ -185,7 +185,8 @@
 
 .header-weather-2017
 {
-	background-image: url(../img/project_hero_WeatheredGifs.jpg);	
+	background-image: url(../img/project_hero_WeatheredGifs.jpg);
+	background-position: left center;
 }
 
 .header-afow-2015
