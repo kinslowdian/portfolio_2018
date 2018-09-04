@@ -9,20 +9,20 @@
 
 .header-index
 {
-	background-image: url(../img/main_header.jpg);
+	background-image: url(../img/header_0.jpg);
 	background-position: left bottom;
 }
 
 .header-work
 {
-	background-image: url(../img/main_header.jpg);
-	background-position: left bottom;
+	background-image: url(../img/header_1.jpg);
+	background-position: center bottom;
 }
 
 .header-own
 {
-	background-image: url(../img/main_header.jpg);
-	background-position: left bottom;
+	background-image: url(../img/header_2.jpg);
+	background-position: right bottom;
 }
 
 .header-tuborg
