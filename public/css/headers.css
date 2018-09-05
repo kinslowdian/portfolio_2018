@@ -10,19 +10,19 @@
 .header-index
 {
 	background-image: url(../img/header_0.jpg);
-	background-position: left bottom;
+	background-position: left bottom !important;
 }
 
 .header-work
 {
 	background-image: url(../img/header_1.jpg);
-	background-position: center bottom;
+	background-position: center bottom !important;
 }
 
 .header-own
 {
 	background-image: url(../img/header_2.jpg);
-	background-position: right bottom;
+	background-position: right bottom !important;
 }
 
 .header-tuborg
@@ -118,7 +118,7 @@
 .header-sony-2015
 {
 	background-image: url(../img/project_hero_2015_sony.jpg);
-	background-position: right center;
+	background-position: right center !important;
 }
 
 .header-christmas-2014
@@ -149,7 +149,7 @@
 .header-infiniti-2013
 {
 	background-image: url(../img/project_hero_infiniti_eu.jpg);
-	background-position: right center;	
+	background-position: right center !important;	
 }
 
 .header-bbc-2013
@@ -175,7 +175,7 @@
 .header-teamgb-2011
 {
 	background-image: url(../img/project_hero_adidas_teamGB.jpg);
-	background-position: left center;		
+	background-position: left center !important;		
 }
 
 .header-areyouin-2011
@@ -199,7 +199,7 @@
 .header-weather-2017
 {
 	background-image: url(../img/project_hero_WeatheredGifs.jpg);
-	background-position: left center;
+	background-position: left center !important;
 }
 
 .header-afow-2015
@@ -250,6 +250,12 @@
 .header-bombuspet-2005
 {
 	background-image: url(../img/project_hero_bombus_pet.jpg);
+}
+
+.header-lostpaths-2004
+{
+	background-image: url(../img/project_hero_lost_paths.jpg);
+	background-position: center bottom !important;
 }
 
 .header-absurdism-2004
