@@ -120,6 +120,11 @@
 	background-image: url(../img/project_hero_christmas_tracker.jpg);	
 }
 
+.header-thebar-2014
+{
+	background-image: url(../img/project_hero_2014_thebar.jpg);
+}
+
 .header-virgintrains-2014
 {
 	background-image: url(../img/project_hero_virginTrains.jpg);		
@@ -137,7 +142,8 @@
 
 .header-infiniti-2013
 {
-	background-image: url(../img/project_hero_infiniti_eu.jpg);		
+	background-image: url(../img/project_hero_infiniti_eu.jpg);
+	background-position: right center;	
 }
 
 .header-bbc-2013
