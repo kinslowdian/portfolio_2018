@@ -115,6 +115,12 @@
 	background-image: url(../img/project_hero_campaign_theBar.jpg);
 }
 
+.header-sony-2015
+{
+	background-image: url(../img/project_hero_2015_sony.jpg);
+	background-position: right center;
+}
+
 .header-christmas-2014
 {
 	background-image: url(../img/project_hero_christmas_tracker.jpg);	
