@@ -51,6 +51,30 @@
 	max-width: 80%;
 }
 
+.project-video-600
+{
+	width: 90%;
+	max-width: 600px;
+}
+
+.project-video-968
+{
+	width: 90%;
+	max-width: 968px;
+}
+
+.project-video-960
+{
+	width: 90%;
+	max-width: 960px;
+}
+
+.project-video-720
+{
+	width: 90%;
+	max-width: 720px;
+}
+
 .project-video:last-of-type
 {
 	padding-bottom: 0;
@@ -164,6 +188,11 @@
 	max-width: 600px;
 }
 
+.project-img-custom-720 img
+{
+	max-width: 720px;
+}
+
 .project-img-custom-756 img
 {
 	max-width: 756px;
@@ -177,6 +206,11 @@
 .project-img-custom-960 img
 {
 	max-width: 960px;
+}
+
+.project-img-custom-968 img
+{
+	max-width: 968px;
 }
 
 .project-img-custom-1000 img
