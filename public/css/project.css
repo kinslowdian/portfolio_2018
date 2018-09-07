@@ -164,9 +164,19 @@
 	max-width: 600px;
 }
 
+.project-img-custom-756 img
+{
+	max-width: 756px;
+}
+
 .project-img-custom-900 img
 {
 	max-width: 900px;
+}
+
+.project-img-custom-960 img
+{
+	max-width: 960px;
 }
 
 .project-img-custom-1000 img
