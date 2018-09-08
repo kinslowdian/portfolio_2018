@@ -75,6 +75,12 @@
 	max-width: 720px;
 }
 
+.project-video-1650
+{
+	width: 90%;
+	max-width: 1650px;
+}
+
 .project-video:last-of-type
 {
 	padding-bottom: 0;
