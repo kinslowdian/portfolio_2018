@@ -117,7 +117,7 @@ function nav_min_event(event)
 
 	event.preventDefault();
 
-	nav_unit.dataNum = event.target.dataset.num;
+	nav_unit.dataNum = parseInt(event.target.dataset.num);
 
 	nav_event(null);
 
@@ -133,6 +133,40 @@ function nav_min_apply()
 
 	else
 	{
-
+		request_other();
 	}
-}	
+}
+
+function request_other()
+{
+	switch(nav_unit.dataNum)
+	{
+		case 0:
+		{
+			window.open("projectsui.html", "_self");
+
+			break;
+		}
+
+		case 1:
+		{
+			window.open("projectsvideo.html", "_self");
+
+			break;
+		}
+
+		case 2:
+		{
+			window.open("projectsads.html", "_self");
+
+			break;
+		}
+
+		case 3:
+		{
+			window.open("projectscode.html", "_self");
+
+			break;
+		}
+	}
+}
