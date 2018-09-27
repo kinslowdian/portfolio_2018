@@ -559,6 +559,8 @@ footer a:hover
 	right: 0; top: -10px;
 
 	display: block;
+
+	cursor: pointer;
 }
 
 .nav-burger div
@@ -632,7 +634,15 @@ footer a:hover
 {
 	display: table;
 	margin: 1.2em auto;
-	outline: 1px solid white;
+
+	cursor: pointer;
+
+	color: var(--color-nav);
+}
+
+.nav-min ul li:hover
+{
+	color: var(--color-white);
 }
 
 .nav-min ul li:first-of-type

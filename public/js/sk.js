@@ -23,6 +23,8 @@ function nav_init()
 
 	nav_unit = {};
 	nav_unit.inUse = false;
+	nav_unit.dataNum = false;
+	nav_unit.max = 5;
 
 	displayList.header = document.querySelector("header");
 	displayList.footer = document.querySelector("footer");
@@ -32,6 +34,12 @@ function nav_init()
 	displayList.GFXclose = document.querySelector(".nav-gfx-close");
 	displayList.burger = document.querySelector(".nav-burger");
 	displayList.navMin = document.querySelector(".nav-min");
+
+	for(let i = 0; i < nav_unit.max; i++)
+	{
+		displayList["navMinBtn" + i] = {};
+		displayList["navMinBtn" + i] = document.querySelector(".nav-min-btn" + i);
+	}
 
 	displayList.burger.addEventListener("click", nav_event, false);
 }
@@ -53,6 +61,8 @@ function nav_event(event)
 	{
 		nav_unit.inUse = false;
 
+		nav_min_control(false);
+
 		displayList.nav.classList.remove("nav-min-use");
 		displayList.navMin.classList.remove("nav-min-show");
 
@@ -68,6 +78,8 @@ function nav_event(event)
 	{
 		nav_unit.inUse = true;
 
+		nav_min_control(true);
+
 		displayList.nav.classList.add("nav-min-use");
 		displayList.navMin.classList.add("nav-min-show");
 
@@ -79,3 +91,48 @@ function nav_event(event)
 		displayList.GFXburger.classList.add("nav-gfx-hide");
 	}
 }
+
+function nav_min_control(run)
+{
+	if(run)
+	{
+		for(let i = 0; i < nav_unit.max; i++)
+		{
+			displayList["navMinBtn" + i].addEventListener("click", nav_min_event, false);
+		}
+	}
+
+	else
+	{
+		for(let j = 0; j < nav_unit.max; j++)
+		{
+			displayList["navMinBtn" + j].removeEventListener("click", nav_min_event, false);
+		}		
+	}
+}
+
+function nav_min_event(event)
+{
+	let delay;
+
+	event.preventDefault();
+
+	nav_unit.dataNum = event.target.dataset.num;
+
+	nav_event(null);
+
+	delay = setTimeout(nav_min_apply, 0.4 * 1000);
+}
+
+function nav_min_apply()
+{
+	if(nav_unit.dataNum == (nav_unit.max - 1))
+	{
+		request_contact(null);
+	}
+
+	else
+	{
+
+	}
+}	
