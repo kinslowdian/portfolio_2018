@@ -27,10 +27,11 @@ function nav_init()
 	displayList.header = document.querySelector("header");
 	displayList.footer = document.querySelector("footer");
 
-	GFXburger = document.querySelector(".nav-gfx-burger");
-	GFXclose = document.querySelector(".nav-gfx-close");
-
+	displayList.nav = document.querySelector("nav");
+	displayList.GFXburger = document.querySelector(".nav-gfx-burger");
+	displayList.GFXclose = document.querySelector(".nav-gfx-close");
 	displayList.burger = document.querySelector(".nav-burger");
+	displayList.navMin = document.querySelector(".nav-min");
 
 	displayList.burger.addEventListener("click", nav_event, false);
 }
@@ -47,26 +48,34 @@ function request_contact(event)
 
 function nav_event(event)
 {
+	// CLOSE
 	if(nav_unit.inUse)
 	{
 		nav_unit.inUse = false;
 
-		GFXburger.classList.add("nav-gfx-delay");
-		GFXclose.classList.remove("nav-gfx-delay");
+		displayList.nav.classList.remove("nav-min-use");
+		displayList.navMin.classList.remove("nav-min-show");
 
-		GFXburger.classList.remove("nav-gfx-hide");
-		GFXclose.classList.add("nav-gfx-hide");
+		displayList.GFXburger.classList.add("nav-gfx-delay");
+		displayList.GFXclose.classList.remove("nav-gfx-delay");
+
+		displayList.GFXburger.classList.remove("nav-gfx-hide");
+		displayList.GFXclose.classList.add("nav-gfx-hide");
 	}
 
+	// OPEN
 	else
 	{
 		nav_unit.inUse = true;
 
-		GFXclose.classList.add("nav-gfx-delay");
-		GFXburger.classList.remove("nav-gfx-delay");
+		displayList.nav.classList.add("nav-min-use");
+		displayList.navMin.classList.add("nav-min-show");
+
+		displayList.GFXclose.classList.add("nav-gfx-delay");
+		displayList.GFXburger.classList.remove("nav-gfx-delay");
 
 
-		GFXclose.classList.remove("nav-gfx-hide");
-		GFXburger.classList.add("nav-gfx-hide");
+		displayList.GFXclose.classList.remove("nav-gfx-hide");
+		displayList.GFXburger.classList.add("nav-gfx-hide");
 	}
 }
