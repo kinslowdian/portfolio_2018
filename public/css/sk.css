@@ -547,6 +547,56 @@ footer a:hover
 	color: var(--color-white);
 }
 
+.nav-burger
+{
+	width: 30px;
+	height: 30px;
+
+	position: absolute;
+
+	right: 0; top: -10px;
+
+	display: block;
+}
+
+.nav-burger div
+{
+	width: inherit;
+	height: inherit;
+
+	position: absolute;
+}
+
+.nav-gfx-burger
+{
+	background-image: url(../img/burger.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+
+	transition: 200ms linear;
+}
+
+.nav-gfx-close
+{
+	background-image: url(../img/close.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+
+	transition: 200ms linear;
+}
+
+.nav-gfx-hide
+{
+	opacity: 0;
+}
+
+.nav-gfx-delay
+{
+	transition-delay: 200ms;
+}
+
 
 /* !!! RESPONSIVE !!! */
 
@@ -589,6 +639,18 @@ footer a:hover
 	.nav1, .nav2, .nav3
 	{
 		margin-left: 1em;
+	}
+
+	.nav-dsk
+	{
+		display: none;
+		visibility: hidden;
+	}
+
+	.nav-burger
+	{
+		display: block;
+		visibility: visible;
 	}
 
 	header h1
@@ -685,6 +747,18 @@ footer a:hover
 		margin-left: 4em;
 	}
 
+	.nav-dsk
+	{
+		display: none;
+		visibility: hidden;
+	}
+
+	.nav-burger
+	{
+		display: block;
+		visibility: visible;
+	}
+
 	header h1
 	{
 		width: 80%;
@@ -779,6 +853,18 @@ footer a:hover
 		margin-left: 4em;
 	}
 
+	.nav-dsk
+	{
+		display: block;
+		visibility: visible;
+	}
+
+	.nav-burger
+	{
+		display: none;
+		visibility: hidden;
+	}
+
 	header h1
 	{
 		width: 90%;
@@ -871,6 +957,18 @@ footer a:hover
 	.nav1, .nav2, .nav3
 	{
 		margin-left: 4em;
+	}
+
+	.nav-dsk
+	{
+		display: block;
+		visibility: visible;
+	}
+
+	.nav-burger
+	{
+		display: none;
+		visibility: hidden;
 	}
 
 	.intro p
