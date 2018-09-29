@@ -203,6 +203,11 @@ header a:hover
 	color: var(--color-white);
 }
 
+header a span:hover
+{
+	color: var(--color-white);
+}
+
 .nav0
 {
 	text-align: left;
