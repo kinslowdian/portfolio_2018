@@ -14,6 +14,7 @@ function nav_init()
 	displayList = {};
 
 	nav_unit = {};
+	nav_unit.home = "http://simonkinslow.com";
 	nav_unit.inUse = false;
 	nav_unit.dataNum = false;
 	nav_unit.max = 5;
@@ -40,6 +41,21 @@ function nav_init()
 	}
 
 	displayList.burger.addEventListener("click", nav_event, false);
+}
+
+function request_home(event)
+{
+	if(nav_unit.inUse)
+	{
+		nav_unit.dataNum = "HOME";
+
+		nav_min_event(null);
+	}
+
+	else
+	{
+		window.open(nav_unit.home, "_self");
+	}
 }
 
 function request_backToTop(event)
@@ -113,9 +129,10 @@ function nav_min_event(event)
 {
 	let delay;
 
-	event.preventDefault();
-
-	nav_unit.dataNum = parseInt(event.target.dataset.num);
+	if(nav_unit.dataNum != "HOME")
+	{
+		nav_unit.dataNum = parseInt(event.target.dataset.num);
+	}
 
 	nav_event(null);
 
@@ -124,7 +141,12 @@ function nav_min_event(event)
 
 function nav_min_apply()
 {
-	if(nav_unit.dataNum == (nav_unit.max - 1))
+	if(nav_unit.dataNum == "HOME")
+	{
+		window.open(nav_unit.home, "_self");
+	}
+
+	else if(nav_unit.dataNum == (nav_unit.max - 1))
 	{
 		request_contact(null);
 	}
