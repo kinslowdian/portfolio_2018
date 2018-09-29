@@ -25,11 +25,19 @@
 			<nav>
 				<div class="nav-items center-y">
 					<ul class="no-select">
-						<li class="nav0"><a class="ui-animation" href="http://simonkinslow.com"><span class="nav0-d">Simon Kinslow</span><span class="nav0-m">SK</span></a></li>
-						<li class="nav1"><a class="ui-animation" onclick="request_contact();">Contact</a></li>
-						<li class="nav2"><a class="ui-animation" href="../projectspersonal.html">Own projects</a></li>
-						<li class="nav3"><a class="ui-animation" href="../projectswork.html">Work</a></li>
+						<li class="nav0"><a class="ui-animation" onclick="request_home();"><span>Simon Kinslow</span></a></li>
+						<li class="nav1 nav-dsk"><a class="ui-animation" onclick="request_contact();">Contact</a></li>
+						<li class="nav2 nav-dsk"><a class="ui-animation" href="projectscode.html">Code</a></li>
+						<li class="nav3 nav-dsk"><a class="ui-animation" href="projectsads.html">Online Ads</a></li>
+						<li class="nav3 nav-dsk"><a class="ui-animation" href="projectsvideo.html">Video</a></li>
+						<li class="nav3 nav-dsk"><a class="ui-animation" href="projectsui.html">UI Design</a></li>
 					</ul>
+
+					<div class="no-select nav-burger">
+						<div class="nav-gfx-burger"></div>
+						<div class="nav-gfx-close nav-gfx-hide"></div>
+					</div>
+
 				</div>
 			</nav>
 		</header>
@@ -122,6 +130,15 @@
 	</div> <!-- .display-content -->
 </div> <!-- .display-wrapper -->
 
+<div class="nav-min">
+	<ul class="center-y no-select">
+		<li class="ui-animation nav-min-btn0" data-num="0">UI Design</li>
+		<li class="ui-animation nav-min-btn1" data-num="1">Video</li>
+		<li class="ui-animation nav-min-btn2" data-num="2">Online Ads</li>
+		<li class="ui-animation nav-min-btn3" data-num="3">Code</li>
+		<li class="ui-animation nav-min-btn4" data-num="4">Contact</li>
+	</ul>
+</div>
 
 <script type="text/javascript" src="../public/js/sk.js"></script>
 </body>
