@@ -25,6 +25,36 @@
 	background-position: right bottom !important;
 }
 
+.header-0
+{
+	background-image: url(../img/header_0.jpg);
+	background-position: left bottom !important;	
+}
+
+.header-1
+{
+	background-image: url(../img/header_1.jpg);
+	background-position: 25% bottom !important;	
+}
+
+.header-2
+{
+	background-image: url(../img/header_2.jpg);
+	background-position: center bottom !important;	
+}
+
+.header-3
+{
+	background-image: url(../img/header_3.jpg);
+	background-position: 75% bottom !important;	
+}
+
+.header-4
+{
+	background-image: url(../img/header_4.jpg);
+	background-position: right bottom !important;	
+}
+
 .header-tuborg
 {
 	background-image: url(../img/project_hero_2017_tuborg.jpg);
