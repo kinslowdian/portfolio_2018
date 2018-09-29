@@ -18,12 +18,34 @@ function nav_init()
 	nav_unit.inUse = false;
 	nav_unit.dataNum = false;
 	nav_unit.max = 5;
+	nav_unit.ext = "";
 	nav_unit.pageARR = new Array();
 
-	nav_unit.pageARR.push("projectsui.html");
-	nav_unit.pageARR.push("projectsvideo.html");
-	nav_unit.pageARR.push("projectsads.html");
-	nav_unit.pageARR.push("projectscode.html");
+	let isProject = document.querySelector(".project-view"); 
+
+	if(isProject)
+	{
+		nav_unit.ext = "../";
+
+		// CHANGE PRIVATE HTML NAV LINKS IN HEADER
+		for(let n = 2; n < nav_unit.max; n++)
+		{
+			let navItem = document.querySelector(".nav" + n + " a");
+			let navItemURL = navItem.getAttribute("href");
+
+			navItem.setAttribute("href", nav_unit.ext + navItemURL);
+		}
+	}
+
+	else
+	{
+		nav_unit.ext = "";
+	}
+
+	nav_unit.pageARR.push(nav_unit.ext + "projectsui.html");
+	nav_unit.pageARR.push(nav_unit.ext + "projectsvideo.html");
+	nav_unit.pageARR.push(nav_unit.ext + "projectsads.html");
+	nav_unit.pageARR.push(nav_unit.ext + "projectscode.html");
 
 	displayList.header = document.querySelector("header");
 	displayList.footer = document.querySelector("footer");
