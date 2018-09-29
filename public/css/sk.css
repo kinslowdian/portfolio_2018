@@ -578,6 +578,7 @@ footer a:hover
 	background-position: center center;
 	background-size: 100% 100%;
 
+	-webkit-transition: 200ms linear;
 	transition: 200ms linear;
 }
 
@@ -588,6 +589,7 @@ footer a:hover
 	background-position: center center;
 	background-size: 100% 100%;
 
+	-webkit-transition: 200ms linear;
 	transition: 200ms linear;
 }
 
@@ -598,6 +600,7 @@ footer a:hover
 
 .nav-gfx-delay
 {
+	-webkit-transition-delay: 250ms;
 	transition-delay: 250ms;
 }
 
@@ -612,9 +615,14 @@ footer a:hover
 
 	background: var(--color-btn0);
 
+	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
 
+	-webkit-transition: 400ms ease-in-out;
 	transition: 400ms ease-in-out;
+
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .nav-min ul
@@ -663,6 +671,7 @@ footer a:hover
 
 .nav-min-show
 {
+	-webkit-transform: translateX(0%);
 	transform: translateX(0%);
 }
 
