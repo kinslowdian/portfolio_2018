@@ -15,13 +15,13 @@
 
 .header-work
 {
-	background-image: url(../img/header_1.jpg);
-	background-position: center bottom !important;
+	background-image: url(../img/header_A.jpg);
+	background-position: left bottom !important;
 }
 
 .header-own
 {
-	background-image: url(../img/header_2.jpg);
+	background-image: url(../img/header_B.jpg);
 	background-position: right bottom !important;
 }
 
