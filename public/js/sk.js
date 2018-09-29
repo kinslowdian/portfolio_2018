@@ -28,7 +28,7 @@ function nav_init()
 		nav_unit.ext = "../";
 
 		// CHANGE PRIVATE HTML NAV LINKS IN HEADER
-		for(let n = 2; n < nav_unit.max; n++)
+		for(let n = 2; n <= nav_unit.max; n++)
 		{
 			let navItem = document.querySelector(".nav" + n + " a");
 			let navItemURL = navItem.getAttribute("href");
