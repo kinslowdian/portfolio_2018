@@ -795,6 +795,16 @@ footer a:hover
 	{
 		width: 90%;
 	}
+
+	.nav-min ul
+	{
+		font-size: 0.8em;
+	}
+
+	.nav-min ul li
+	{
+		margin: 0.8em auto;
+	}
 }
 
 /* PHABLET */
@@ -900,6 +910,16 @@ footer a:hover
 	footer .footer-inner
 	{
 		width: 90%;
+	}
+
+	.nav-min ul
+	{
+		font-size: 1.2em;
+	}
+
+	.nav-min ul li
+	{
+		margin: 1.2em auto;
 	}
 }
 
@@ -1007,6 +1027,16 @@ footer a:hover
 	{
 		width: 90%;
 	}
+
+	.nav-min ul
+	{
+		font-size: 1.2em;
+	}
+
+	.nav-min ul li
+	{
+		margin: 1.2em auto;
+	}
 }
 
 /* DESKTOP */
@@ -1106,5 +1136,15 @@ footer a:hover
 	footer .footer-inner
 	{
 		width: 80%;
+	}
+
+	.nav-min ul
+	{
+		font-size: 1.2em;
+	}
+
+	.nav-min ul li
+	{
+		margin: 1.2em auto;
 	}
 }
