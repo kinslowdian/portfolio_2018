@@ -807,6 +807,19 @@ footer a:hover
 	}
 }
 
+@media only screen and (min-width: 350px)
+{
+	.nav-min ul
+	{
+		font-size: 1.2em;
+	}
+
+	.nav-min ul li
+	{
+		margin: 1.2em auto;
+	}
+}
+
 /* PHABLET */
 @media only screen and (min-width: 600px)
 {
