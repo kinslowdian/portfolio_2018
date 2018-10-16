@@ -178,8 +178,10 @@
 
 .header-infiniti-2013
 {
-	background-image: url(../img/project_hero_infiniti_eu.jpg);
-	background-position: right center !important;	
+/*	background-image: url(../img/project_hero_infiniti_eu.jpg);
+	background-position: right center !important;*/
+
+	background-image: url(../img/project_hero_2013_infi.jpg);
 }
 
 .header-bbc-2013
