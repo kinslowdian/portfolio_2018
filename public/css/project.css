@@ -259,6 +259,27 @@
 	max-width: 400px;
 }
 
+.project-img-custom-414 img
+{
+	max-width: 414px;
+}
+
+.project-img-custom-1500 img
+{
+	max-width: 1500px;
+}
+
+.project-img-edge
+{
+
+}
+
+.project-img-edge img
+{
+	outline: 1px solid #ccc;
+	outline-offset: -1px;
+}
+
 .weblink-exit
 {
 	width: 100%;

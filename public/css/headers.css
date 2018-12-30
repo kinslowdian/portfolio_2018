@@ -255,6 +255,27 @@
 	background-image: url(../img/project_hero_2013_infi_style.jpg);
 }
 
+.header-amz-fire-2018
+{
+	background-image: url(../img/project_hero_2018_amz_fire.png);
+}
+
+.header-amz-lego-2018
+{
+	background-image: url(../img/project_hero_2018_amz_lego.jpg);
+}
+
+.header-amz-samsung-2018
+{
+	/*background-image: url(../img/project_hero_2018_amz_samsung.jpg);*/
+	background-image: url(../img/project_hero_2018_amz_samsung.png);
+	background-position: center top !important;
+}
+
+.header-amz-tv-2018
+{
+	background-image: url(../img/project_hero_2018_amz_tv.jpg);
+}
 
 
 /*PERSONAL HEADERS*/
