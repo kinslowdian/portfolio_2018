@@ -227,6 +227,8 @@ header a span:hover
 	position: relative;
 	background: var(--color-black);
 	background: #000;
+	background: #ddc9aa;
+	background: var(--color-btn0);
 	padding: 1em 0;
 }
 
